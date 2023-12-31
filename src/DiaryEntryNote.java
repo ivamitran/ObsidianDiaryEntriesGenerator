@@ -9,7 +9,8 @@ public class DiaryEntryNote extends ObsidianNote {
     static String generalToDoListNoteFileName = "XXX";
 
     static String[] generalNoteContent = {
-            "", // this will be left empty
+            "", // first two lines won't have content
+            "",
             "---",
             "Back to Root Note: [[X]]", // X: file name of dated to do list root note
             "Previous Diary Entry: [[X]]", // X: file name of previous dated to do list note
