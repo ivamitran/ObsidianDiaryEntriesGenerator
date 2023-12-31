@@ -22,7 +22,7 @@ public class DiaryEntryNotesFramework {
             String dayOfMonth = currentDateRelevantStrings[0];
             String abbreviatedMonth = currentDateRelevantStrings[1];
             String year = currentDateRelevantStrings[2];
-            String fileName = dayOfMonth + abbreviatedMonth + year;
+            String fileName = dayOfMonth + abbreviatedMonth + year + "diaryEntry";
 
             // generate the note content
             String[] specificNoteContent = DiaryEntryNote.returnSpecificNoteContent(localDates.get(i));
