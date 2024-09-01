@@ -1,0 +1,1 @@
+This is just a placeholder file so that the directory `markdownOutput` will be added to git

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a919d7e3-e6f6-4b3b-b1a4-78cb6a34c5d7" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/DateFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiaryEntryNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiaryEntryNotesFramework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObsidianNote.java" afterDir="false" />
+    <list default="true" id="a919d7e3-e6f6-4b3b-b1a4-78cb6a34c5d7" name="Changes" comment="Instead of &quot;diaryEntry&quot;, it should be &quot;DiaryEntry&quot; so changed that">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaryEntryNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryEntryNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaryEntryNotesFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaryEntryNotesFramework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,26 +26,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2aFG09eV3X2uRH46DKcFPUFmZCF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DiaryEntryNotesFramework" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiaryEntryNotesFramework" />
+      <module name="ObsidianDiaryEntriesGenerator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,11 +77,47 @@
       <option name="project" value="LOCAL" />
       <updated>1703906855569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="This program is very similar to my ObsidianDailyToDoListsGenerator. It works in the same manner, but the markdown files are slightly different in terms of content">
+      <option name="closed" value="true" />
+      <created>1703986449219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703986449219</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed the output file naming scheme to include &quot;diaryEntry&quot; at the end">
+      <option name="closed" value="true" />
+      <created>1704060782811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704060782811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed the content of the output file so that there are two empty lines at the beginning of the file">
+      <option name="closed" value="true" />
+      <created>1704060837717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704060837717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Instead of &quot;diaryEntry&quot;, it should be &quot;DiaryEntry&quot; so changed that">
+      <option name="closed" value="true" />
+      <created>1704060956311</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704060956312</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="This program is very similar to my ObsidianDailyToDoListsGenerator. It works in the same manner, but the markdown files are slightly different in terms of content" />
+    <MESSAGE value="Changed the output file naming scheme to include &quot;diaryEntry&quot; at the end" />
+    <MESSAGE value="Changed the content of the output file so that there are two empty lines at the beginning of the file" />
+    <MESSAGE value="Instead of &quot;diaryEntry&quot;, it should be &quot;DiaryEntry&quot; so changed that" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instead of &quot;diaryEntry&quot;, it should be &quot;DiaryEntry&quot; so changed that" />
   </component>
 </project>
